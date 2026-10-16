@@ -1,0 +1,19 @@
+{
+  "name": "funathon",
+  "version": "1.0.0",
+  "description": "Open `index.html` in a modern browser. No install, account, server, or configuration is needed.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js && node --check app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "qrcode": "^1.5.4"
+  }
+}
